@@ -1,0 +1,15 @@
+﻿@model CreateDepartmentDtos
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+<br/>
+<br/>
+<div>
+    <partial name="DepartmentPartialView/Deletedetails" />
+
+    <a asp-controller="Department" asp-action="Edit"  class="btn btn-warning">Edit</a>
+    <a asp-controller="Department" asp-action="Index" class="btn btn-light">Back To List</a>
+</div>
+
